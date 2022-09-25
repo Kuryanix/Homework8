@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        // ЗАДАЧИ 1,2,3 и 4
+        // ЗАДАЧИ 1, 3 и 4
 
         int[] numbers = new int[3];
         numbers[0] = 1;
@@ -30,7 +30,32 @@ public class Main {
         char [] chars = {33, 1, 4209, 445, 109};
         for (int i = 4; i < chars.length; i--) {
             if (i == 0) {
-                System.out.print(chars[i]);
+                System.out.println(chars[i]);
+                break;
+            }
+            System.out.print(chars[i] + ",");
+        }
+
+        // Задача 2
+        for (int i = 0; i < 3; i++) {
+            if (i == 2) {
+                System.out.println(numbers[i]);
+                break;
+            }
+            System.out.print(numbers[i] + ",");
+        }
+
+        for (int i = 0; i < numberdot.length; i++) {
+            if (i == 2) {
+                System.out.println(numberdot[i]);
+                break;
+            }
+            System.out.print(numberdot[i] + ",");
+        }
+
+        for (int i = 0; i < chars.length; i++) {
+            if (i == 4) {
+                System.out.println(chars[i]);
                 break;
             }
             System.out.print(chars[i] + ",");
